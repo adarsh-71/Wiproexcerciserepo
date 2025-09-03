@@ -1,0 +1,23 @@
+/* Universal selector - applies to all elements */
+* {
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* Group selector - applies to both h1 and p */
+h1, p {
+  color: blue;
+  background-color: lightyellow;
+}
+
+/* Class selector - applied via class="highlight" */
+.highlight {
+  color: green;
+  background-color: lightblue;
+}
+
+/* ID selector - applied via id="special" */
+#special {
+  color: red;
+  background-color: lightgreen;
+}
